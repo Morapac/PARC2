@@ -1,0 +1,179 @@
+/*cabeza página*/
+.header{
+    color: white;
+    padding: 30px 15px;
+    margin: 0 auto;
+    border-bottom: 10px solid #003366;
+    background-color: #00264d;
+}
+
+/*cuerpo*/
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004080; 
+    color: white;
+}
+
+/*para navegar*/
+.navbar{
+    width: 80%;
+    max-width: 600px;
+    background-color: #003366;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5 25px;
+}
+
+/*pasar sobre nav*/
+a:hover{
+    background-color: #0080ff; /*colorcito al pasar el mouse*/
+    border-radius: 5px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+li{
+    padding: 20px 0;
+}
+
+h1, h2, .centrar{
+    text-align: center;
+}
+
+.justificar{
+    text-align: justify;
+}
+
+a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+/*Lo que contiene la paginita*/
+.contenedor{
+    margin: 50px auto 0;
+    width: 100%;
+    max-width: 960px;
+}
+
+.contenido{
+    background-color: #e6f2ff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #004080;
+    border-radius: 10px;
+    color: #004080;
+}
+
+
+.desarrolladora {
+    background-color: #cce6ff;
+    border: 2px dashed #00264d;
+}
+
+
+.contenido img {
+    max-width: 40%; 
+    height: auto;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.contenido2 img {
+    max-width: 30%;
+    margin-right: 20px;
+    height: auto;
+    float: left;
+}
+
+
+.cajita1{
+    padding: 20px;
+    border: 3px solid #0066cc;
+    background-color: #cce6ff;
+    border-radius: 10px;
+}
+
+.cajita2{
+    padding: 20px;
+    border: 3px dashed #004080;
+    background-color: #e6f2ff;
+    border-radius: 5px;
+}
+
+@media (max-width:500px){
+    .navbar{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    ul{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    li{
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/*la parte final de la pagina*/
+.footer{
+    background-color: #00264d;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0;
+}
+
+
+.contenedor-juego {
+    background-color: #cce6ff;
+    border: 3px solid #004080;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.contenedor-juego h2 {
+    color: #004080;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenedor-juego p {
+    color: #003366;
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.seccion-juego {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #004080;
+    margin-bottom: 40px;
+}
+
+.ultima-seccion-juego {
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+}
